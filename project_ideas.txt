@@ -1,0 +1,11 @@
+Smth climbing related:
+	- maybe a grade of a route estimate
+	- prediction based on the iamge if climber will finish
+
+
+Applying a tattoo to a body part:
+	- input a tattoo idea (maybe generate a few and pick)
+	- send a picture of a body part and it will make the tattoo
+
+
+
