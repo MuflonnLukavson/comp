@@ -3,7 +3,7 @@ import time
 import numpy as np
 
 cap = cv2.VideoCapture(0)
-cap = cv2.VideoCapture("http://10.100.33.246:4747/video") ## Change the IP for connecting the phone camera
+# cap = cv2.VideoCapture("http://10.100.33.246:4747/video") ## Change the IP for connecting the phone camera
 font = cv2.FONT_HERSHEY_SIMPLEX
 
 if not cap.isOpened():
@@ -19,7 +19,6 @@ H, W, C = frame.shape
 print(H, W, C)
 count = 0
 fps = 30
-fps_avg = 0
 timer_start = time.time()
 
 while(True):
